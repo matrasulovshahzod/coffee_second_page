@@ -1,0 +1,291 @@
+@font-face{
+    src: url(../fonts/Barlow/Barlow-Bold.ttf);
+    font-family: barlow_bold;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: barlow_bold;
+}
+
+.container{
+    max-width: 1210px;
+    margin: auto;
+    padding: 20px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    padding:30px 0;
+}
+
+.pic{
+    margin-right: auto;
+}
+
+.img{
+    display: block;
+    width: 236px;
+    height: 26px;
+}
+
+.nav_items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_item{
+    padding: 7px 8px;
+    color: #83888F;
+}
+
+.nav_item:hover{
+    font-weight: 700;
+    padding: 7px 8px;
+    color: #202020;
+}
+
+.background{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: url(../img/Bitmap.png) no-repeat;
+    background-size: 100%;
+}
+
+.into-background{
+    width: 350px;
+    height: 390px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 70px;
+}
+
+.into-background p,h2{
+    color: white;   
+}
+
+.into-background p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.into-background h2{
+    font-weight: 900;
+    font-size: 40px;    
+}
+
+.commit{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    padding-top: 50px;
+    margin: 50px 0;
+}
+
+.commit-into > h2{
+    font-weight: 900;
+    font-size: 40px;    
+}
+
+.commit-title{
+    color: black;
+}
+
+.commit-into{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    line-height: 26px;
+}
+
+.commit::before{
+    width: 445px;
+    height: 520px;
+    content: "";
+    position: absolute;
+    background: url(../img/commit.png) no-repeat;
+    background-size: 100%;
+    left: 70px;
+    border-radius: 5px;
+}
+
+.section2{
+    position: relative;
+    width: 100%;
+    height: 434px;
+    background-color:#333D4B;
+    border-radius: 5px;
+    padding-top: 60px;
+    padding-left: 100px;
+    top: 270px;
+}
+
+.into-section2{
+    width: 470px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.into-section2 p{
+    color: white;
+}
+
+.into-section2 h2{
+    font-size: 40px;
+}
+
+.section2::before{
+    content: "";
+    position: absolute;
+    width: 434px;
+    height: 460px;
+    background: url(../img/quality.png) no-repeat;
+    background-size: 100%;
+    border-radius: 7px;
+    right: 75px;
+    top: -95px;
+}
+
+.section3{
+    margin-top: 350px;
+}
+
+.section3 h4{
+    font-weight: 900;
+    font-size: 24px; 
+    color: #83888F; 
+    padding-top: 50px; 
+}
+
+.into-section3{
+    display: flex;
+}
+
+.list-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.map1{
+    position: relative;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+.map1 h3{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.map2{
+    position: relative;
+    padding-top: 50px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.map2 h3{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.map3{
+    position: relative;
+    padding-top: 50px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.map3 h3{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.map1::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    background: url(../img/UK.png) no-repeat;
+    background-size: 100%;
+    top: 0;
+}
+
+.map2::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    background: url(../img/canada.png) no-repeat;
+    background-size: 100%;
+    top: 0;
+}
+
+.map3::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    background: url(../img/australia.png) no-repeat;
+    background-size: 100%;
+    top: 0;
+}
+
+.item{
+    padding: 5px 0;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding: 10px 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-color: rgba(7, 7, 7, 0.815);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    margin-left: 363px;
+}
+
+.nav_items-f{
+    padding-top: 10px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 84px;
+}
+
+.nav_item-f{
+    padding: 7px 8px;
+    color: #eaecf0;
+    font-size: 13px;
+}
+
+.pic2{
+    margin: 0 15px;
+}
+
+.img{
+    display: block;
+    width: 236px;
+    height: 26px;
+}
